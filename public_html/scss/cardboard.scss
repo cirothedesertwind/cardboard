@@ -10,7 +10,7 @@ $container-sm: 45rem + $gutter-width;
 $container-md: 60rem + $gutter-width;
 $container-lg: 70rem + $gutter-width;
 
-.container-fluid {
+[data-cb-fluid] {
     margin-right: auto;
     margin-left: auto;
     padding-right: $outer-margin;
